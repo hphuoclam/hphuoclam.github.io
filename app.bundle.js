@@ -46375,6 +46375,7 @@ var App = function (_Component) {
 								_react2.default.createElement(
 										"div",
 										{ className: "container-fluid contents" },
+										_react2.default.createElement(_navbar2.default, null),
 										_react2.default.createElement(
 												_reactRouterDom.Switch,
 												null,
@@ -62814,7 +62815,7 @@ var HomeComponent = function (_Component) {
       return _react2.default.createElement(
         'div',
         null,
-        'hahah'
+        'z'
       );
     }
   }]);
