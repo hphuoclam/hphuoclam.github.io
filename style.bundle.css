@@ -284,6 +284,10 @@ img{
 }
 .blog-listing .footer .comments li a:hover{
 	background: transparent;
+}
+.nav-cus li{
+	display: table-cell;
+	/*width: 1%;*/
 }.blogs-detail{
 	padding: 0 30px !important;
 	margin-bottom: 30px;

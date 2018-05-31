@@ -15187,7 +15187,7 @@ var BlogsList = function (_Component) {
                         { className: 'footer navbar-collapse' },
                         _react2.default.createElement(
                             'ul',
-                            { className: 'nav navbar-nav comments' },
+                            { className: 'nav navbar-nav comments nav-cus' },
                             _react2.default.createElement(
                                 'li',
                                 null,
@@ -15211,7 +15211,7 @@ var BlogsList = function (_Component) {
                         ),
                         _react2.default.createElement(
                             'ul',
-                            { className: 'nav navbar-nav navbar-right comments' },
+                            { className: 'nav navbar-nav navbar-right comments nav-cus' },
                             this.props.item.category_obj && _react2.default.createElement(
                                 'li',
                                 null,
@@ -64965,15 +64965,15 @@ var BlogsComponent = function (_Component) {
         key: 'componentDidMount',
         value: function componentDidMount() {
             document.title = _config2.default.project_name + ' - Blogs';
-            window.addEventListener("resize", this.resize.bind(this));
-            this.resize();
+            // window.addEventListener("resize", this.resize.bind(this));
+            // this.resize();
         }
     }, {
         key: 'resize',
         value: function resize() {
-            if (window.innerWidth < 768) {
-                this.setState({ visible: false });
-            }
+            // if(window.innerWidth < 768){
+            //     this.setState({visible: false})
+            // }
         }
     }, {
         key: 'toggleMenu',
@@ -64990,11 +64990,6 @@ var BlogsComponent = function (_Component) {
                     'section',
                     { className: 'blogs-left ' + (this.state.visible && 'show-menu') },
                     _react2.default.createElement(_profile2.default, null)
-                ),
-                _react2.default.createElement(
-                    'button',
-                    { className: 'btn btn-default show-mobile', onClick: this.toggleMenu },
-                    _react2.default.createElement('i', { className: 'fa fa-bars fa-2x' })
                 ),
                 _react2.default.createElement(
                     'section',
