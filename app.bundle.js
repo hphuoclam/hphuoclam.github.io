@@ -66368,7 +66368,7 @@ var BlogsDetailComponent = function (_Component) {
                             { className: 'row' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-xs-12 col-md-1' },
+                                { className: 'col-xs-6 col-xs-3 col-md-1 mb15' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'create_day' },
