@@ -16029,7 +16029,7 @@ var BlogsList = function (_Component) {
                                 { className: 'row' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-xs-2 col-md-1' },
+                                    { className: 'col-xs-3 col-md-1' },
                                     _react2.default.createElement(
                                         'div',
                                         { className: 'create_day' },
@@ -16048,7 +16048,7 @@ var BlogsList = function (_Component) {
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'col-xs-10 col-md-11' },
+                                    { className: 'col-xs-9 col-md-11' },
                                     _react2.default.createElement(
                                         'h2',
                                         { className: 'title' },
@@ -66368,7 +66368,7 @@ var BlogsDetailComponent = function (_Component) {
                             { className: 'row' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-xs-2 col-md-1' },
+                                { className: 'col-xs-3 col-md-1' },
                                 _react2.default.createElement(
                                     'div',
                                     { className: 'create_day' },
@@ -66387,7 +66387,7 @@ var BlogsDetailComponent = function (_Component) {
                             ),
                             _react2.default.createElement(
                                 'div',
-                                { className: 'col-xs-10 col-md-11' },
+                                { className: 'col-xs-9 col-md-11' },
                                 _react2.default.createElement(
                                     'h1',
                                     { className: 'title' },

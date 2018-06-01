@@ -248,6 +248,14 @@ img{
 .blog-listing .image img{
 	width: 100%;
 }
+@media only screen and (max-width: 768px) {
+	.blog-listing .image{
+		margin-bottom: 0;
+	}
+	.blog-listing .content_all{
+		position: relative;
+	}
+}
 .blog-listing .content{
 	margin: 30px 0;
 }
