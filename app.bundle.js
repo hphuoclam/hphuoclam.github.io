@@ -5919,7 +5919,7 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 var store = __webpack_require__(78)('wks');
 var uid = __webpack_require__(53);
-var Symbol = __webpack_require__(24).Symbol;
+var Symbol = __webpack_require__(25).Symbol;
 var USE_SYMBOL = typeof Symbol == 'function';
 
 var $exports = module.exports = function (name) {
@@ -5974,9 +5974,68 @@ module.exports = emptyFunction;
 
 /***/ }),
 /* 23 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(300);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(304);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(109);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(306);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(309);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(312);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(314);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(110);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(68);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(320);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(322);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(324);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(325);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/***/ }),
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(24);
+var global = __webpack_require__(25);
 var core = __webpack_require__(20);
 var ctx = __webpack_require__(72);
 var hide = __webpack_require__(34);
@@ -6040,7 +6099,7 @@ module.exports = $export;
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports) {
 
 // https://github.com/zloirock/core-js/issues/86#issuecomment-115759028
@@ -6052,7 +6111,7 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6065,65 +6124,6 @@ exports.default = !!(typeof window !== 'undefined' && window.document && window.
 module.exports = exports['default'];
 
 /***/ }),
-/* 26 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__ = __webpack_require__(300);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "BrowserRouter", function() { return __WEBPACK_IMPORTED_MODULE_0__BrowserRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__HashRouter__ = __webpack_require__(304);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "HashRouter", function() { return __WEBPACK_IMPORTED_MODULE_1__HashRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__Link__ = __webpack_require__(109);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Link", function() { return __WEBPACK_IMPORTED_MODULE_2__Link__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__ = __webpack_require__(306);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "MemoryRouter", function() { return __WEBPACK_IMPORTED_MODULE_3__MemoryRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__NavLink__ = __webpack_require__(309);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "NavLink", function() { return __WEBPACK_IMPORTED_MODULE_4__NavLink__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__Prompt__ = __webpack_require__(312);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Prompt", function() { return __WEBPACK_IMPORTED_MODULE_5__Prompt__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__Redirect__ = __webpack_require__(314);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Redirect", function() { return __WEBPACK_IMPORTED_MODULE_6__Redirect__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Route__ = __webpack_require__(110);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Route", function() { return __WEBPACK_IMPORTED_MODULE_7__Route__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__Router__ = __webpack_require__(68);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Router", function() { return __WEBPACK_IMPORTED_MODULE_8__Router__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__StaticRouter__ = __webpack_require__(320);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "StaticRouter", function() { return __WEBPACK_IMPORTED_MODULE_9__StaticRouter__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__Switch__ = __webpack_require__(322);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "Switch", function() { return __WEBPACK_IMPORTED_MODULE_10__Switch__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__matchPath__ = __webpack_require__(324);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "matchPath", function() { return __WEBPACK_IMPORTED_MODULE_11__matchPath__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__withRouter__ = __webpack_require__(325);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "withRouter", function() { return __WEBPACK_IMPORTED_MODULE_12__withRouter__["a"]; });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/***/ }),
 /* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6133,7 +6133,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 module.exports = {
     host: 'https://django-api-blog.herokuapp.com',
     project_name: "Demo",
-    BLOG_URL: "/blogs/"
+    BLOG_URL: "/blogs/",
+    USERS_URL: "/users/"
 };
 
 /***/ }),
@@ -6451,7 +6452,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _inDOM = __webpack_require__(25);
+var _inDOM = __webpack_require__(26);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -8523,7 +8524,7 @@ module.exports = function (key) {
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(24);
+var global = __webpack_require__(25);
 var SHARED = '__core-js_shared__';
 var store = global[SHARED] || (global[SHARED] = {});
 module.exports = function (key) {
@@ -8664,7 +8665,7 @@ exports.f = __webpack_require__(21);
 /* 87 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var global = __webpack_require__(24);
+var global = __webpack_require__(25);
 var core = __webpack_require__(20);
 var LIBRARY = __webpack_require__(83);
 var wksExt = __webpack_require__(86);
@@ -8850,7 +8851,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.animationEnd = exports.animationDelay = exports.animationTiming = exports.animationDuration = exports.animationName = exports.transitionEnd = exports.transitionDuration = exports.transitionDelay = exports.transitionTiming = exports.transitionProperty = exports.transform = undefined;
 
-var _inDOM = __webpack_require__(25);
+var _inDOM = __webpack_require__(26);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -9484,7 +9485,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _inDOM = __webpack_require__(25);
+var _inDOM = __webpack_require__(26);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -9521,7 +9522,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _inDOM = __webpack_require__(25);
+var _inDOM = __webpack_require__(26);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -9958,7 +9959,7 @@ var _reactTypist = __webpack_require__(486);
 
 var _reactTypist2 = _interopRequireDefault(_reactTypist);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(23);
 
 var _config = __webpack_require__(27);
 
@@ -9987,16 +9988,77 @@ var ProfileComponent = function (_Component) {
         var _this = _possibleConstructorReturn(this, (ProfileComponent.__proto__ || Object.getPrototypeOf(ProfileComponent)).call(this, props));
 
         _this.state = {
-            renderMsg: false
+            renderMsg: false,
+            user: {}
         };
         _this.onHeaderTyped = _this.onHeaderTyped.bind(_this);
         return _this;
     }
 
     _createClass(ProfileComponent, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            fetch(_config2.default.host + _config2.default.USERS_URL).then(function (res) {
+                return res.json();
+            }).then(function (res) {
+                _this2.setState({
+                    user: res
+                });
+            }, function (error) {});
+        }
+    }, {
         key: 'onHeaderTyped',
         value: function onHeaderTyped() {
             this.setState({ renderMsg: true });
+        }
+    }, {
+        key: 'socialIcon',
+        value: function socialIcon() {
+            if (this.state.user.profile_obj) {
+                return _react2.default.createElement(
+                    'ul',
+                    { className: 'icon-social' },
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { target: '_blank', href: this.state.user.profile_obj.google_plus },
+                            _react2.default.createElement('i', { className: 'fa fa-google-plus-square fa-2x', 'aria-hidden': 'true' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { target: '_blank', href: this.state.user.profile_obj.facebook },
+                            _react2.default.createElement('i', { className: 'fa fa-facebook-square fa-2x', 'aria-hidden': 'true' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { target: '_blank', href: this.state.user.profile_obj.twitter },
+                            _react2.default.createElement('i', { className: 'fa fa-twitter-square fa-2x', 'aria-hidden': 'true' })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'li',
+                        null,
+                        _react2.default.createElement(
+                            'a',
+                            { target: '_blank', href: this.state.user.profile_obj.github },
+                            _react2.default.createElement('i', { className: 'fa fa-git-square fa-2x', 'aria-hidden': 'true' })
+                        )
+                    )
+                );
+            }
+            return null;
         }
     }, {
         key: 'render',
@@ -10015,13 +10077,15 @@ var ProfileComponent = function (_Component) {
                     _react2.default.createElement(
                         'h1',
                         { className: 'name' },
-                        _config2.default.project_name
+                        this.state.user.first_name,
+                        ' ',
+                        this.state.user.last_name
                     ),
                     _react2.default.createElement(
                         'div',
                         { className: 'about' },
                         _react2.default.createElement(
-                            'h2',
+                            'div',
                             null,
                             _react2.default.createElement(
                                 _reactTypist2.default,
@@ -10034,7 +10098,7 @@ var ProfileComponent = function (_Component) {
                             { className: '' },
                             this.state.renderMsg ? _react2.default.createElement(
                                 _reactTypist2.default,
-                                { className: 'TypistExample-message', cursor: { hideWhenDone: true } },
+                                { className: '', cursor: { hideWhenDone: true } },
                                 '* Easy to style',
                                 _react2.default.createElement(_reactTypist2.default.Delay, { ms: 1250 }),
                                 _react2.default.createElement('br', null),
@@ -10056,46 +10120,7 @@ var ProfileComponent = function (_Component) {
                                 )
                             ) : null
                         ),
-                        _react2.default.createElement(
-                            'ul',
-                            { className: 'icon-social' },
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'fa fa-google-plus-square fa-2x', 'aria-hidden': 'true' })
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'fa fa-facebook-square fa-2x', 'aria-hidden': 'true' })
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'fa fa-twitter-square fa-2x', 'aria-hidden': 'true' })
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'fa fa-git-square fa-2x', 'aria-hidden': 'true' })
-                                )
-                            )
-                        ),
+                        this.socialIcon(),
                         _react2.default.createElement(
                             'ul',
                             { className: 'nav-profile' },
@@ -10896,7 +10921,7 @@ module.exports = !__webpack_require__(36) && !__webpack_require__(44)(function (
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(43);
-var document = __webpack_require__(24).document;
+var document = __webpack_require__(25).document;
 // typeof document.createElement is 'object' in old IE
 var is = isObject(document) && isObject(document.createElement);
 module.exports = function (it) {
@@ -10982,7 +11007,7 @@ __webpack_require__(121)(String, 'String', function (iterated) {
 "use strict";
 
 var LIBRARY = __webpack_require__(83);
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 var redefine = __webpack_require__(122);
 var hide = __webpack_require__(34);
 var has = __webpack_require__(29);
@@ -12889,7 +12914,7 @@ exports.default = function (recalc) {
   return size;
 };
 
-var _inDOM = __webpack_require__(25);
+var _inDOM = __webpack_require__(26);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -14980,7 +15005,7 @@ ToggleButton.propTypes = propTypes;
 
 
 Object.defineProperty(exports, "__esModule", {
-  value: true
+    value: true
 });
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -14988,6 +15013,8 @@ var _createClass = function () { function defineProperties(target, props) { for 
 var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
+
+var _reactRouterDom = __webpack_require__(23);
 
 var _config = __webpack_require__(27);
 
@@ -15012,53 +15039,140 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var BlogsListComponent = function (_Component) {
-  _inherits(BlogsListComponent, _Component);
+    _inherits(BlogsListComponent, _Component);
 
-  function BlogsListComponent(props) {
-    _classCallCheck(this, BlogsListComponent);
+    function BlogsListComponent(props) {
+        _classCallCheck(this, BlogsListComponent);
 
-    var _this = _possibleConstructorReturn(this, (BlogsListComponent.__proto__ || Object.getPrototypeOf(BlogsListComponent)).call(this, props));
+        var _this = _possibleConstructorReturn(this, (BlogsListComponent.__proto__ || Object.getPrototypeOf(BlogsListComponent)).call(this, props));
 
-    _this.state = {
-      blogs: [],
-      loading: true
-    };
-    return _this;
-  }
-
-  _createClass(BlogsListComponent, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      var _this2 = this;
-
-      fetch(_config2.default.host + '/blogs/').then(function (res) {
-        return res.json();
-      }).then(function (res) {
-        _this2.setState({
-          blogs: res.results,
-          loading: false
-        });
-      }, function (error) {});
+        _this.state = {
+            loading: true,
+            data: {},
+            blogs: [],
+            pagination: {
+                previous: null,
+                next: null,
+                count: 0
+            }
+        };
+        _this.setPagination = _this.setPagination.bind(_this);
+        return _this;
     }
-  }, {
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'section',
-        { className: 'blogs-contents' },
-        this.state.blogs.map(function (v, k) {
-          return _react2.default.createElement(_lists2.default, { item: v, key: k });
-        }),
-        this.state.loading && _react2.default.createElement(
-          'div',
-          { className: 'loading' },
-          _react2.default.createElement('i', { className: 'fa fa-circle-o-notch fa-spin fa-3x fa-fw' })
-        )
-      );
-    }
-  }]);
 
-  return BlogsListComponent;
+    _createClass(BlogsListComponent, [{
+        key: 'componentDidMount',
+        value: function componentDidMount() {
+            var _this2 = this;
+
+            this.getData();
+            this.props.history.listen(function (location, action) {
+                _this2.getData(location.search);
+            });
+        }
+    }, {
+        key: 'getData',
+        value: function getData() {
+            var _this3 = this;
+
+            var param = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : null;
+
+            var search_param = param ? param : '';
+            fetch(_config2.default.host + '/blogs/' + search_param).then(function (res) {
+                return res.json();
+            }).then(function (res) {
+                _this3.setState({
+                    blogs: res.results,
+                    loading: false,
+                    pagination: {
+                        previous: res.previous,
+                        next: res.next,
+                        count: res.count
+                    }
+                });
+            }, function (error) {});
+        }
+    }, {
+        key: 'setPagination',
+        value: function setPagination(url) {
+            var get_page_number = url.split('?page=');
+            var full_url = _config2.default.BLOG_URL;
+            if (get_page_number[1]) {
+                full_url = _config2.default.BLOG_URL + '?page=' + get_page_number[1];
+            }
+            return full_url;
+        }
+    }, {
+        key: 'renderList',
+        value: function renderList() {
+            if (this.state.blogs.length > 0) {
+                return this.state.blogs.map(function (v, k) {
+                    return _react2.default.createElement(_lists2.default, { item: v, key: k });
+                });
+            }
+            return null;
+        }
+    }, {
+        key: 'renderPagination',
+        value: function renderPagination() {
+            if (this.state.pagination.previous || this.state.pagination.next) {
+                return _react2.default.createElement(
+                    'nav',
+                    { 'aria-label': '...' },
+                    _react2.default.createElement(
+                        'ul',
+                        { className: 'pager' },
+                        this.state.pagination.previous && _react2.default.createElement(
+                            'li',
+                            { className: 'previous' },
+                            _react2.default.createElement(
+                                _reactRouterDom.Link,
+                                { to: this.setPagination(this.state.pagination.previous) },
+                                _react2.default.createElement(
+                                    'span',
+                                    { 'aria-hidden': 'true' },
+                                    '\u2190'
+                                ),
+                                ' Previous'
+                            )
+                        ),
+                        this.state.pagination.next && _react2.default.createElement(
+                            'li',
+                            { className: 'next' },
+                            _react2.default.createElement(
+                                _reactRouterDom.Link,
+                                { to: this.setPagination(this.state.pagination.next) },
+                                'Next ',
+                                _react2.default.createElement(
+                                    'span',
+                                    { 'aria-hidden': 'true' },
+                                    '\u2192'
+                                )
+                            )
+                        )
+                    )
+                );
+            }
+            return null;
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return _react2.default.createElement(
+                'section',
+                { className: 'blogs-contents' },
+                this.renderList(),
+                this.state.loading && _react2.default.createElement(
+                    'div',
+                    { className: 'loading' },
+                    _react2.default.createElement('i', { className: 'fa fa-circle-o-notch fa-spin fa-3x fa-fw' })
+                ),
+                this.renderPagination()
+            );
+        }
+    }]);
+
+    return BlogsListComponent;
 }(_react.Component);
 
 exports.default = BlogsListComponent;
@@ -15084,7 +15198,7 @@ var _config = __webpack_require__(27);
 
 var _config2 = _interopRequireDefault(_config);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(23);
 
 var _reactMoment = __webpack_require__(162);
 
@@ -15111,133 +15225,145 @@ var BlogsList = function (_Component) {
     }
 
     _createClass(BlogsList, [{
-        key: 'render',
-        value: function render() {
-            return _react2.default.createElement(
-                'article',
-                { className: 'blog-listing' },
-                _react2.default.createElement(
-                    'div',
-                    { className: 'image' },
-                    _react2.default.createElement(
-                        _reactRouterDom.Link,
-                        { to: '' + _config2.default.BLOG_URL + this.props.item.id + '/' + this.props.item.slug },
-                        _react2.default.createElement('img', { className: '', src: this.props.item.image, title: this.props.item.title, alt: this.props.item.title })
-                    )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'content' },
+        key: 'renderItem',
+        value: function renderItem() {
+            if (this.props.item.id) {
+                return _react2.default.createElement(
+                    'article',
+                    { className: 'blog-listing' },
                     _react2.default.createElement(
                         'div',
-                        { className: 'row' },
+                        { className: 'image' },
+                        _react2.default.createElement(
+                            _reactRouterDom.Link,
+                            { to: '' + _config2.default.BLOG_URL + this.props.item.id + '/' + this.props.item.slug },
+                            _react2.default.createElement('img', { className: '', src: this.props.item.image, title: this.props.item.title, alt: this.props.item.title })
+                        )
+                    ),
+                    _react2.default.createElement(
+                        'div',
+                        { className: 'content_all' },
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-xs-2 col-md-1' },
+                            { className: 'content' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'create_day' },
+                                { className: 'row' },
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'day' },
-                                    _react2.default.createElement(_reactMoment2.default, { date: this.props.item.create_at, format: 'DD' })
+                                    { className: 'col-xs-2 col-md-1' },
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'create_day' },
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'day' },
+                                            _react2.default.createElement(_reactMoment2.default, { date: this.props.item.create_at, format: 'DD' })
+                                        ),
+                                        _react2.default.createElement(
+                                            'div',
+                                            { className: 'time' },
+                                            _react2.default.createElement(_reactMoment2.default, { date: this.props.item.create_at, format: 'MMM', element: 'div' }),
+                                            _react2.default.createElement(_reactMoment2.default, { date: this.props.item.create_at, format: 'YYYY', element: 'div' })
+                                        )
+                                    )
                                 ),
                                 _react2.default.createElement(
                                     'div',
-                                    { className: 'time' },
-                                    _react2.default.createElement(_reactMoment2.default, { date: this.props.item.create_at, format: 'MMM', element: 'div' }),
-                                    _react2.default.createElement(_reactMoment2.default, { date: this.props.item.create_at, format: 'YYYY', element: 'div' })
+                                    { className: 'col-xs-10 col-md-11' },
+                                    _react2.default.createElement(
+                                        'h2',
+                                        { className: 'title' },
+                                        _react2.default.createElement(
+                                            _reactRouterDom.Link,
+                                            { to: '' + _config2.default.BLOG_URL + this.props.item.id + '/' + this.props.item.slug },
+                                            this.props.item.title
+                                        )
+                                    ),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'short' },
+                                        this.props.item.short
+                                    ),
+                                    _react2.default.createElement(
+                                        'div',
+                                        { className: 'continues' },
+                                        _react2.default.createElement(
+                                            _reactRouterDom.Link,
+                                            { to: '' + _config2.default.BLOG_URL + this.props.item.id + '/' + this.props.item.slug },
+                                            'Continue Reading'
+                                        )
+                                    )
                                 )
                             )
                         ),
                         _react2.default.createElement(
                             'div',
-                            { className: 'col-xs-10 col-md-11' },
-                            _react2.default.createElement(
-                                'h2',
-                                { className: 'title' },
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' + _config2.default.BLOG_URL + this.props.item.id + '/' + this.props.item.slug },
-                                    this.props.item.title
-                                )
-                            ),
+                            { className: 'footer' },
                             _react2.default.createElement(
                                 'div',
-                                { className: 'short' },
-                                this.props.item.short
-                            ),
-                            _react2.default.createElement(
-                                'div',
-                                { className: 'continues' },
+                                { className: 'footer navbar-collapse' },
                                 _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' + _config2.default.BLOG_URL + this.props.item.id + '/' + this.props.item.slug },
-                                    'Continue Reading'
+                                    'ul',
+                                    { className: 'nav navbar-nav comments nav-cus' },
+                                    _react2.default.createElement(
+                                        'li',
+                                        null,
+                                        _react2.default.createElement(
+                                            _reactRouterDom.Link,
+                                            { to: '' },
+                                            _react2.default.createElement('i', { className: 'pr5 fa fa-heart-o' }),
+                                            '1205'
+                                        )
+                                    ),
+                                    _react2.default.createElement(
+                                        'li',
+                                        null,
+                                        _react2.default.createElement(
+                                            _reactRouterDom.Link,
+                                            { to: '' },
+                                            _react2.default.createElement('i', { className: 'pr5 fa fa-comment-o' }),
+                                            '125'
+                                        )
+                                    )
+                                ),
+                                _react2.default.createElement(
+                                    'ul',
+                                    { className: 'nav navbar-nav navbar-right comments nav-cus' },
+                                    this.props.item.category_obj && _react2.default.createElement(
+                                        'li',
+                                        null,
+                                        _react2.default.createElement(
+                                            _reactRouterDom.Link,
+                                            { to: '' },
+                                            _react2.default.createElement('i', { className: 'pr5 fa fa-tag' }),
+                                            this.props.item.category_obj.name
+                                        )
+                                    ),
+                                    this.props.item.user_obj && _react2.default.createElement(
+                                        'li',
+                                        null,
+                                        _react2.default.createElement(
+                                            _reactRouterDom.Link,
+                                            { to: '' },
+                                            _react2.default.createElement('i', { className: 'pr5 fa fa-user-circle-o' }),
+                                            this.props.item.user_obj.first_name,
+                                            ' ',
+                                            this.props.item.user_obj.last_name
+                                        )
+                                    )
                                 )
                             )
                         )
                     )
-                ),
-                _react2.default.createElement(
-                    'div',
-                    { className: 'footer' },
-                    _react2.default.createElement(
-                        'div',
-                        { className: 'footer navbar-collapse' },
-                        _react2.default.createElement(
-                            'ul',
-                            { className: 'nav navbar-nav comments nav-cus' },
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'pr5 fa fa-heart-o' }),
-                                    '1205'
-                                )
-                            ),
-                            _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'pr5 fa fa-comment-o' }),
-                                    '125'
-                                )
-                            )
-                        ),
-                        _react2.default.createElement(
-                            'ul',
-                            { className: 'nav navbar-nav navbar-right comments nav-cus' },
-                            this.props.item.category_obj && _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'pr5 fa fa-tag' }),
-                                    this.props.item.category_obj.name
-                                )
-                            ),
-                            this.props.item.user_obj && _react2.default.createElement(
-                                'li',
-                                null,
-                                _react2.default.createElement(
-                                    _reactRouterDom.Link,
-                                    { to: '' },
-                                    _react2.default.createElement('i', { className: 'pr5 fa fa-user-circle-o' }),
-                                    this.props.item.user_obj.first_name,
-                                    ' ',
-                                    this.props.item.user_obj.last_name
-                                )
-                            )
-                        )
-                    )
-                )
-            );
+                );
+            }
+            return null;
+        }
+    }, {
+        key: 'render',
+        value: function render() {
+            return this.renderItem();
         }
     }]);
 
@@ -27119,7 +27245,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(23);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -46471,7 +46597,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(23);
 
 var _noMatch = __webpack_require__(113);
 
@@ -46508,7 +46634,7 @@ var App = function (_Component) {
 				key: "render",
 				value: function render() {
 						return _react2.default.createElement(
-								_reactRouterDom.HashRouter,
+								_reactRouterDom.BrowserRouter,
 								null,
 								_react2.default.createElement(
 										"div",
@@ -50306,7 +50432,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(23);
 
 var _reactBootstrap = __webpack_require__(331);
 
@@ -50719,7 +50845,7 @@ module.exports = __webpack_require__(20).Object.assign;
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.1 Object.assign(target, source)
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 
 $export($export.S + $export.F, 'Object', { assign: __webpack_require__(336) });
 
@@ -50898,7 +51024,7 @@ module.exports = __webpack_require__(36) ? Object.defineProperties : function de
 /* 344 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var document = __webpack_require__(24).document;
+var document = __webpack_require__(25).document;
 module.exports = document && document.documentElement;
 
 
@@ -50926,7 +51052,7 @@ module.exports = Object.getPrototypeOf || function (O) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(347);
-var global = __webpack_require__(24);
+var global = __webpack_require__(25);
 var hide = __webpack_require__(34);
 var Iterators = __webpack_require__(48);
 var TO_STRING_TAG = __webpack_require__(21)('toStringTag');
@@ -51027,10 +51153,10 @@ module.exports = __webpack_require__(20).Symbol;
 "use strict";
 
 // ECMAScript 6 symbols shim
-var global = __webpack_require__(24);
+var global = __webpack_require__(25);
 var has = __webpack_require__(29);
 var DESCRIPTORS = __webpack_require__(36);
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 var redefine = __webpack_require__(122);
 var META = __webpack_require__(353).KEY;
 var $fails = __webpack_require__(44);
@@ -51416,7 +51542,7 @@ module.exports = __webpack_require__(20).Object.setPrototypeOf;
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(363).set });
 
 
@@ -51472,7 +51598,7 @@ module.exports = function create(P, D) {
 /* 366 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 $export($export.S, 'Object', { create: __webpack_require__(84) });
 
@@ -51814,7 +51940,7 @@ module.exports = __webpack_require__(20).Object.entries;
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-values-entries
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 var $entries = __webpack_require__(127)(true);
 
 $export($export.S, 'Object', {
@@ -51931,7 +52057,7 @@ module.exports = __webpack_require__(20).Object.values;
 /***/ (function(module, exports, __webpack_require__) {
 
 // https://github.com/tc39/proposal-object-values-entries
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 var $values = __webpack_require__(127)(false);
 
 $export($export.S, 'Object', {
@@ -54697,7 +54823,7 @@ module.exports = __webpack_require__(20).Array.from;
 "use strict";
 
 var ctx = __webpack_require__(72);
-var $export = __webpack_require__(23);
+var $export = __webpack_require__(24);
 var toObject = __webpack_require__(81);
 var call = __webpack_require__(402);
 var isArrayIter = __webpack_require__(403);
@@ -56710,7 +56836,7 @@ MenuItem.defaultProps = defaultProps;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_dom_helpers_events___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_dom_helpers_events__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_dom_helpers_ownerDocument__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM__ = __webpack_require__(25);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM__ = __webpack_require__(26);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_dom_helpers_util_inDOM__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize__ = __webpack_require__(141);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_dom_helpers_util_scrollbarSize__);
@@ -57150,7 +57276,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _inDOM = __webpack_require__(25);
+var _inDOM = __webpack_require__(26);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -57197,7 +57323,7 @@ var _contains = __webpack_require__(39);
 
 var _contains2 = _interopRequireDefault(_contains);
 
-var _inDOM = __webpack_require__(25);
+var _inDOM = __webpack_require__(26);
 
 var _inDOM2 = _interopRequireDefault(_inDOM);
 
@@ -64917,7 +65043,7 @@ var _config = __webpack_require__(27);
 
 var _config2 = _interopRequireDefault(_config);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(23);
 
 var _blogsLists = __webpack_require__(160);
 
@@ -65029,7 +65155,7 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactRouterDom = __webpack_require__(26);
+var _reactRouterDom = __webpack_require__(23);
 
 var _reactMoment = __webpack_require__(162);
 
