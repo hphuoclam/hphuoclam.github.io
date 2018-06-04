@@ -216,7 +216,7 @@ img{
     transition: .5;
 }
 .blog-listing .content_all{
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0;
 	left: 0;
 	right: 0;
