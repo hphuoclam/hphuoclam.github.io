@@ -235,6 +235,7 @@ img{
 	position: relative;
 	margin-bottom: 50px;
 	overflow: hidden;
+	height: 250px;
 }
 /*.blog-listing .image:after{
 	content: "";
@@ -346,7 +347,9 @@ img{
 .blogs-detail .facebook-comment .fb-comments>span{
 	width: 100% !important;
 }
-.contents{
+.blogs-detail .blog-listing .image{
+	height: auto
+}.contents{
 	padding: 0;
 }
 .navbar-default{
