@@ -2629,15 +2629,49 @@ body.mobile .tab-content>.active {
 .full-page .page-section{
     padding-top: 80px !important;
 	padding-bottom: 50px !important;
-	overflow: hidden;
+	padding-left: 50px !important;
+	padding-right: 50px !important;
 }
 .Navigation .Navigation-Anchor{
 	background-color: #fff !important;
 	margin: 20px 10px !important;
 	border-radius: 0 !important;
 }
+.Navigation .Navigation-Anchor.active {
+	transform: scale(1.9) !important;
+}
 .Navigation:before{
-	
+	content: '';
+    position: fixed;
+    top: -150%;
+    bottom: 100%;
+    width: 2px;
+    background: #fff;
+    right: 15px;
+}
+.Navigation:after{
+	content: '';
+    position: fixed;
+    top: 100%;
+    bottom: -150%;
+    width: 2px;
+    background: #fff;
+    right: 15px;
+}
+.ico.nav-tabs{
+	display: block !important;
+}
+.nav-tabs{
+	border: 0 !important;
+}
+@media(max-width:991px){
+	.full-page .page-section>div{
+		display: block !important;
+	}
+	.Navigation:after,
+	.Navigation:before{
+		display: none !important;
+	}
 }.contents{
 	padding: 0;
 }
