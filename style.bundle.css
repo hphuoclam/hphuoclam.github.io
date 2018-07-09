@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Muli:300,400,400i,800&subset=vietnamese);body {
 	margin: 0;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif !important;
     font-size: 14px;
     line-height: 20px;
     color: #555;
@@ -2788,6 +2788,10 @@ pre{
 }
 .custom_nav .navbar-header .navbar-brand{
 	color: #fff;
+	font-size: 200%;
+    vertical-align: middle;
+    margin: auto;
+    padding-top: 10px;
 }
 .custom_nav .navbar-nav li a,
 .custom_nav .navbar-nav li a:active,
@@ -2796,8 +2800,10 @@ pre{
 }
 .custom_nav .navbar-nav li a{
 }
+.custom_nav .navbar-nav li.active a,
 .custom_nav .navbar-nav li:hover a{
-	color: #fff;
+	color: #fff !important;
+	background: transparent !important;
 	border-bottom: 2px solid #fff;
 }
 .custom_nav .navbar-brand{
@@ -2812,8 +2818,12 @@ pre{
     padding-left: 15px;
 }
 .button-white.button-border:hover{
-	border-width: 3px;
+	/*border-width: 3px;*/
+	opacity: 0.7;
 }
 textarea:focus, input:focus{
 	border-color: #999;
+}
+.copyright{
+	font-size: 80%;
 }
