@@ -264,7 +264,7 @@
 		line-height: 55px;
 	}
 	.home_banner_area .banner_inner .banner_content p br {
-		display: none;
+		/* display: none; */
 	}
 	.home_banner_area .banner_inner .banner_content h3 span {
 		line-height: 45px;
