@@ -4,10 +4,16 @@
    .header_area .navbar .search {
 		margin-left: 40px;
 	}
+	.home_banner_area {
+		display: block;
+	}
 	/* End Main Menu Area css
 	============================================================================================ */
 	.banner_area .box_1620 {
 		border-radius: 0px;
+	}
+	.home_banner_area .banner_inner .banner_content .media .d-flex {
+		padding-right: 80px;
 	}
 }
 @media (max-width:1300px){
@@ -37,7 +43,6 @@
 	/* Home Banner Area css
 	============================================================================================ */
 	.home_banner_area {
-		display: block;
 		/* min-height: 728px;
 		margin-bottom: 120px; */
 	}
